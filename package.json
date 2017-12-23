@@ -1,0 +1,19 @@
+{
+  "name": "redux-saga-study",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "precommit": "lint-staged"
+  },
+  "lint-staged": {
+    "*.js": [
+      "prettier-eslint --write",
+      "git add"
+    ]
+  },
+  "devDependencies": {
+    "lint-staged": "^6.0.0",
+    "prettier": "^1.9.2"
+  }
+}
